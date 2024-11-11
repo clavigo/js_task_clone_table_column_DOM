@@ -1,0 +1,2 @@
+var r=document.querySelector("table").rows,e=!0,t=!1,l=void 0;try{for(var a,n=r[Symbol.iterator]();!(e=(a=n.next()).done);e=!0){var o=a.value,i=[];i.push(o.cells[1]);var u=!0,y=!1,v=void 0;try{for(var c,f=i[Symbol.iterator]();!(u=(c=f.next()).done);u=!0){var d=c.value;o.cells[4].insertAdjacentHTML("beforebegin",d.outerHTML)}}catch(r){y=!0,v=r}finally{try{u||null==f.return||f.return()}finally{if(y)throw v}}}}catch(r){t=!0,l=r}finally{try{e||null==n.return||n.return()}finally{if(t)throw l}}
+//# sourceMappingURL=index.d36cc504.js.map
